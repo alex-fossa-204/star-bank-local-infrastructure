@@ -21,6 +21,8 @@ services:
     environment:
       - REDIS_HOST=redis-server
       - REDIS_PASSWORD=root
+      - HTTP_USER=root
+      - HTTP_PASSWORD=root
   
   postgres-server:
     container_name: postgres-server
